@@ -19,4 +19,3 @@ class RAGSystem:
                 text += page.extract_text()
         return text.split('\n\n') # Divide el texto en bloques mas pequeños
     
-    
