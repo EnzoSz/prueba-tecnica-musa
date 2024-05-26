@@ -1,8 +1,11 @@
+# Importar librerías
 from flask import Flask, request, jsonify
 from rag_model import RagModel
 
+# Crear la instancia de Flask
 app = Flask(__name__)
 
+# endpoint para responder preguntas
 @app.route('/response', methods=['POST'])
 
 def response():

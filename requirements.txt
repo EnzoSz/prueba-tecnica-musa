@@ -1,0 +1,7 @@
+virtualenv
+flask
+langchain
+langchain_community
+pypdf
+ollama
+chromadb
